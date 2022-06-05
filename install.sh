@@ -8,10 +8,10 @@ else
 	sudo apt install python3-pip
 	pip3 --version
 fi
-curl https://raw.githubusercontent.com/nerukaadmin/Excel-to-Graph-/main/requirements.txt --output requirements.txt
+curl https://raw.githubusercontent.com/nerukaadmin/Excel-to-Graph-/master/requirements.txt --output requirements.txt
 echo installing pip pacakges... 
 pip3 install -r requirements.txt
-curl https://raw.githubusercontent.com/nerukaadmin/Excel-to-Graph-/main/ex_to_graph.py --output ex_to_graph.py
+curl https://raw.githubusercontent.com/nerukaadmin/Excel-to-Graph-/master/ex_to_graph.py --output ex_to_graph.py
 mkdir -p  OUT
 mkdir -p  IN
 mkdir -p  tmp
